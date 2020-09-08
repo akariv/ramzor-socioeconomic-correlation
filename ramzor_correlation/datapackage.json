@@ -1,0 +1,63 @@
+{
+  "bytes": 11272,
+  "count_of_rows": 201,
+  "hash": "d4cf5097b4fcb1794d9b2e421482155d",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 11272,
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "68f44be264ab551c4df575ed8a7f36d5",
+      "mediatype": "text/csv",
+      "name": "concat",
+      "path": "data/concat.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "score",
+            "type": "number"
+          },
+          {
+            "name": "color",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "socio",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "pop",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "match",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
